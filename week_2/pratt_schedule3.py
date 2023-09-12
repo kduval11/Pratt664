@@ -158,7 +158,13 @@ schedule = {
 				]
 			}
 }
+course = schedule['wednesday'][612][0]['class']
+prof = schedule['wednesday'][612][0]['prof']
+start = schedule['wednesday'][612][0]['start']
+print (f'{course} - {prof} - {start}')
 
+       
+       
 
 
 #print the name of the first class on Wednesday in room 612, with the name of the prof and when the start is.
