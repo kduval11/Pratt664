@@ -4,6 +4,13 @@ schedule = {
 	"wednesday": ['Info Services & Resources','Usability Theory & Practice','Mgmt of Archives/Sp Collection','Government Info Sources','Library Media Centers','Mgmt of Archives/Sp Collection'],
 	"thursday": ['Information Science Research','Information Professions','Information Professions'],
 }
+print(schedule['tuesday'])
+
+
+
+
+
+
 
 
 #print the list of classes for the 2nd day, and then print the name of the 2nd class on that day.
