@@ -5,6 +5,7 @@ schedule = {
 	"thursday": ['Information Science Research','Information Professions','Information Professions'],
 }
 print(schedule['tuesday'])
+print(schedule['tuesday'][1])
 
 
 
