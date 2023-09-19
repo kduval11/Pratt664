@@ -5,6 +5,14 @@ schedule = {
 	"thursday": ['Information Science Research','Information Professions','Information Professions'],
 }
 
+for day in schedule:
+    print(day)
+    for classes in schedule[day]:
+        print(classes)
+      
+    
+    
+	
 
 #loop through each day in schedule, print the name of the day, and then loop through all the class names and print them out
 

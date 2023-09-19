@@ -159,7 +159,15 @@ schedule = {
 			}
 }
 
+for day in schedule:
+	print(day)
+	for room in schedule[day]:
+		print(room)
+		for course in schedule[day][room]:
+			print(course['class'])
 
+    
+    
 
 #loop through each day, print out the day name.
 #Sort the rooms for the day and loop through them and print the room number.
