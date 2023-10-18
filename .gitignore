@@ -1,4 +1,4 @@
 .DS_Store
-Artworks.csv
-res
-Artworks.json
+**/Artworks.csv
+**/res
+**/Artworks.json
