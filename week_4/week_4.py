@@ -2,7 +2,7 @@ import csv
 
 nation_file = {}
 
-with open('Documents/workspace/Pratt664/week_4/Artworks.csv') as artwork_file:
+with open('Artworks.csv', 'r') as artwork_file:
     processed_csv = csv.DictReader(artwork_file)
     for art in processed_csv:
         artist_nationality = art['Nationality'].split(" ")
@@ -23,5 +23,4 @@ with open('Documents/workspace/Pratt664/week_4/Artworks.csv') as artwork_file:
             nat_dict_writer = csv.DictWriter(nationality_file, processed_csv.fieldnames)
 
             nation_file[nationality] = {"file": nationality_file, "nat_dict_writer": nat_dict_writer}
-
 
