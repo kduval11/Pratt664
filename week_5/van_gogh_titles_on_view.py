@@ -6,8 +6,8 @@ base_object_url = "https://collectionapi.metmuseum.org/public/collection/v1/obje
 
 search_params = {
     "q": "van gogh",
-    "isOnView": True,
-    "hasImages": True
+    "isOnView": 'true',
+    "hasImages": 'true'
 }
 
 search_response = requests.get(base_search_url, params=search_params)
@@ -30,8 +30,7 @@ if search_response.status_code == 200:
         else:
             object_titles.append("Title not available")
 
-    for title in object_titles:
-        print(title)
+    print(object_titles)
 
 else:
     print(f"Failed to retrieve data. Status code: {search_response.status_code}")
